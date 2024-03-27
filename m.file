@@ -1,0 +1,10 @@
+% Settings
+mu = 2; % Mean
+sigma = sqrt(3); % Variance
+num_samples = 1000; % Number of samples
+
+% Generate Gaussian noise
+noise = mu + sigma * randn(num_samples, 1);
+
+% Display noise samples
+disp(noise);
